@@ -1,0 +1,1 @@
+The calc function of the Person1 class shifts the strig input by two characters. 
