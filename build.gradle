@@ -17,8 +17,6 @@ buildscript {
         classpath 'M2/lib/resources.jar'
 
 
-        
-        
 
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
@@ -26,8 +24,8 @@ buildscript {
 
     jar {
         manifest {
-            attributes 
-                        'Main-Class' : edu.gatech.oad.antlab.pkg1.AntLabMain
+            attributes
+                        'Main-Class' edu.gatech.oad.antlab.pkg1.AntLabMain
         }
     }
 
