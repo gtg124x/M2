@@ -1,1 +1,1 @@
-The calc function of the Person1 class shifts the strig input by two characters. 
+Person1's calc method adjusts the string by 2 characters. 
