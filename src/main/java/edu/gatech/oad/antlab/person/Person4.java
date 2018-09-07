@@ -1,4 +1,6 @@
 package edu.gatech.oad.antlab.person;
+import java.lang.String;
+//import java.
 
 /**
  *  A simple class for person 4
@@ -31,7 +33,12 @@ public class Person4 {
      */
     private String calc(String input) {
       //Person 4 put your implementation here
-      return null;
+      String output = new String();
+      for (char c : input.toCharArray()) {
+        c++;
+        output += c;
+      }
+      return output;
     }
     
     /**

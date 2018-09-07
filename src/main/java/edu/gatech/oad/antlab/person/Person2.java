@@ -1,6 +1,8 @@
+package edu.gatech.oad.antlab.person;
+
 import java.util.Random;
 
-package edu.gatech.oad.antlab.person;
+
 
 /**
  *  A simple class for person 2
